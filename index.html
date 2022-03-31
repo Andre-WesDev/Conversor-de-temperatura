@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Conversor</h1>
+    </header>
+
+    <section>
+        <div >
+            <p>Informe a temperatura:
+                <input type="number" name="txtemp" id="txtemp">
+                <select name="temp-at" id="tempat">
+                    <option value="celsius" selected>Celsius (°C)</option>
+                    <option value="kelvin">Kelvin (K)</option>
+                    <option value="fahrenheit">Fahrenheit (°F)</option>
+                    <option value="reaumur">Réaumur (°Re)</option>
+                    <option value="rankine">Rankine (°Ra)</option>
+                </select>
+            </p>
+            
+            <p>Informe para qual medida deseja converter:
+               <select name="temp-convert" id="temoconver">
+                    <option value="celsius">Celsius (°C)</option>
+                    <option value="kelvin">Kelvin (K)</option>
+                    <option value="fahrenheit">Fahrenheit (°F)</option>
+                    <option value="reaumur">Réaumur (°Re)</option>
+                    <option value="rankine">Rankine (°Ra)</option>
+               </select>
+            </p>
+            <p>
+                <input type="button" class="bnt" value="Converter" onclick="converter()">
+            </p>
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; AplicaçãoTeste</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

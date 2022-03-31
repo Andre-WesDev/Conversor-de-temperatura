@@ -1,0 +1,52 @@
+body{
+    background:#11a1ac;
+    font: normal 15pt arial;
+}
+
+header{
+    color: #ffffff;
+    text-align: center;
+}
+
+section{
+    background:#ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 550px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438);
+}
+
+input{
+    border-radius: 5px;
+    height: 20px;
+}
+
+
+select{
+    height: 27px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.bnt{
+    width: 100px;
+    height: 30px;
+    background-color: #076e77;
+    color: #ffffff;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.bnt:hover{
+    width: 103px;
+    height: 31px;
+}
+
+footer{
+    color:#ffffff;
+    text-align: center;
+    font-style: italic;
+}
